@@ -1,6 +1,6 @@
 #  Multi-Score Reinforcement Learning for High-Tg Polyimide Design
 
-![Graphical Abstract](graphical_abstract.png)
+![Graphical Abstract](graphical_abstract_scores_RL.png)
 
 ##  Overview
 This repository contains the code and data for the study **“Multi-Score Reinforcement Learning for High-Tg Polyimide Design.”**  
