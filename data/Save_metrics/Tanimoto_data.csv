@@ -1,0 +1,14 @@
+smiles,fitness,score,generation,can_smiles,duplicate,Tg
+Cc1cc(I)cc(C)c1S(=O)(=O)c1cc(C)c(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)c(C)c1,1.0,0.70000005,78.0,Cc1cc(S(=O)(=O)c2c(C)cc(I)cc2C)cc(C)c1-n1c(=O)c2cc3c(=O)n(I)c(=O)c3cc2c1=O,1,753.0761476190476
+Cc1cc(S(=O)(=O)c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(C)c2)cc(C)c1I,1.0,0.70000005,78.0,Cc1cc(S(=O)(=O)c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(C)c2)cc(C)c1I,1,759.352
+Cc1cc(-c2cc(C)c(-c3c(C)cc(-n4c(=O)c5cc6c(=O)n(I)c(=O)c6cc5c4=O)c(C)c3)c(C)c2)cc(C)c1I,0.96,0.61822605,78.0,Cc1cc(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)c(C)cc1-c1c(C)cc(-c2cc(C)c(I)c(C)c2)cc1C,0,769.492
+Cc1cc(-c2cc(C)c(-c3c(C)cc(-n4c(=O)c5cc6c(=O)n(I)c(=O)c6cc5c4=O)cc3C)c(C)c2)cc(C)c1I,0.90401787,0.47689128,78.0,Cc1cc(-c2cc(C)c(-c3c(C)cc(-n4c(=O)c5cc6c(=O)n(I)c(=O)c6cc5c4=O)cc3C)c(C)c2)cc(C)c1I,0,753.738
+Cc1cc(-c2cc(C)c(-c3c(C)cc(-n4c(=O)c5cc6c(=O)n(I)c(=O)c6cc5c4=O)c(C)c3)cn2)c(C)cc1I,1.0,0.70000005,78.0,Cc1cc(-c2cc(C)c(-c3cc(C)c(-n4c(=O)c5cc6c(=O)n(I)c(=O)c6cc5c4=O)cc3C)cn2)c(C)cc1I,0,774.3760000000001
+Cc1cc(-c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)cn2)cc(C)c1I,1.0,0.70000005,78.0,Cc1cc(-c2cc(C)c(I)c(C)c2)ncc1-n1c(=O)c2cc3c(=O)n(I)c(=O)c3cc2c1=O,0,767.701
+Cc1cc(I)ccc1S(=O)(=O)c1ccc(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)cc1C,1.0,0.70000005,78.0,Cc1cc(I)ccc1S(=O)(=O)c1ccc(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)cc1C,1,763.407
+Cc1cc(S(=O)(=O)c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)cc2C)c(C)cc1I,1.0,0.70000005,78.0,Cc1cc(S(=O)(=O)c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)cc2C)c(C)cc1I,1,752.8803666666668
+Cc1cc(-c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)cc2C)cc(C)c1I,1.0,0.70000005,78.0,Cc1cc(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)c(C)cc1-c1cc(C)c(I)c(C)c1,0,790.2003333333333
+Cc1cc(-c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)cc2Cl)c(C)cc1I,1.0,0.70000005,78.0,Cc1cc(-c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)cc2Cl)c(C)cc1I,0,767.4466666666667
+Cc1cc(S(=O)(=O)c2ccc(I)c(Cl)c2Cl)cc(C)c1S(=O)(=O)c1ccc(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)c(Cl)c1,0.84275436,0.28820634,78.0,Cc1cc(S(=O)(=O)c2ccc(I)c(Cl)c2Cl)cc(C)c1S(=O)(=O)c1ccc(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)c(Cl)c1,0,775.276
+Cc1cc(I)ccc1S(=O)(=O)c1ccc(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)cc1S,1.0,0.70000005,78.0,Cc1cc(I)ccc1S(=O)(=O)c1ccc(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)cc1S,0,753.0884
+Cc1cc(-c2cc(C)c(-c3c(C)cc(-n4c(=O)c5cc6c(=O)n(I)c(=O)c6cc5c4=O)cc3C)cc2C)c(C)cc1I,0.97926265,0.65956235,78.0,Cc1cc(-c2cc(C)c(-c3c(C)cc(-n4c(=O)c5cc6c(=O)n(I)c(=O)c6cc5c4=O)cc3C)cc2C)c(C)cc1I,0,763.2916666666667

@@ -1,0 +1,8 @@
+smiles,fitness,score,generation,can_smiles,duplicate,Tg
+Cc1cc(-c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(C)c2)c(C)cc1I,0.9153552,0.60078716,66.0,Cc1cc(-c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(C)c2)c(C)cc1I,0,788.4866666666668
+Cc1cc(S(=O)(=O)c2ccc(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(Cl)c2Cl)ccc1C(=O)c1ccc(I)cc1Cl,0.7519475,0.3456974,66.0,Cc1cc(S(=O)(=O)c2ccc(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(Cl)c2Cl)ccc1C(=O)c1ccc(I)cc1Cl,0,762.194
+Cc1cc(S(=O)(=O)c2ccc(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(Cl)c2Cl)ccc1I,0.9232811,0.61103415,66.0,Cc1cc(S(=O)(=O)c2ccc(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(Cl)c2Cl)ccc1I,0,770.856
+Cc1cc(S(=O)(=O)c2c(C)cc(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(C)c2)c(C)cc1I,0.8806515,0.5535469,66.0,Cc1cc(S(=O)(=O)c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)cc2C)c(C)cc1I,1,752.8803666666668
+Cc1cc(S(=O)(=O)c2ccc(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(Cl)c2Cl)ccc1S(=O)(=O)c1cccc(I)c1C,0.74609244,0.33512223,66.0,Cc1cc(S(=O)(=O)c2ccc(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(Cl)c2Cl)ccc1S(=O)(=O)c1cccc(I)c1C,0,750.154
+Cc1cc(C)c(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)c(C)c1,0.92345655,0.6112586,66.0,Cc1cc(C)c(-n2c(=O)c3cc4c(=O)n(I)c(=O)c4cc3c2=O)c(C)c1,0,791.245
+Cc1cc(S(=O)(=O)c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(C)c2)cc(C)c1I,0.8495389,0.50791836,66.0,Cc1cc(S(=O)(=O)c2cc(C)c(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(C)c2)cc(C)c1I,1,759.352

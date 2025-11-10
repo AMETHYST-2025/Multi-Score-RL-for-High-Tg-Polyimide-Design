@@ -1,0 +1,2 @@
+smiles,fitness,score,generation,can_smiles,duplicate,Tg
+Cc1cc(S(=O)(=O)c2ccc(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(Cl)c2Cl)cc(C)c1S(=O)(=O)c1ccc(I)c(Cl)c1,1.0,0.70000005,21.0,Cc1cc(S(=O)(=O)c2ccc(-n3c(=O)c4cc5c(=O)n(I)c(=O)c5cc4c3=O)c(Cl)c2Cl)cc(C)c1S(=O)(=O)c1ccc(I)c(Cl)c1,0,769.698

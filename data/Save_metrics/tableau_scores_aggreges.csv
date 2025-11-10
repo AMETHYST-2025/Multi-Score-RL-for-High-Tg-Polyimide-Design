@@ -1,0 +1,157 @@
+Scores,X,Mean,GeoMean,HarmMean,ExpMean
+Tg_score,"Rate: 1.108
+ExtUn: 0.364
+IntUn: 0.917
+IntDiv: 0.444
+Val: 1.000
+N: 12
+Step: 29","Rate: 1.108
+ExtUn: 0.364
+IntUn: 0.917
+IntDiv: 0.444
+Val: 1.000
+N: 12
+Step: 29","Rate: 1.108
+ExtUn: 0.364
+IntUn: 0.917
+IntDiv: 0.444
+Val: 1.000
+N: 12
+Step: 29","Rate: 1.108
+ExtUn: 0.364
+IntUn: 0.917
+IntDiv: 0.444
+Val: 1.000
+N: 12
+Step: 29","Rate: 1.108
+ExtUn: 0.364
+IntUn: 0.917
+IntDiv: 0.444
+Val: 1.000
+N: 12
+Step: 29"
+Tanimoto,"Rate: 1.625
+ExtUn: 0.692
+IntUn: 1.000
+IntDiv: 0.527
+Val: 1.000
+N: 13
+Step: 78","Rate: 1.805
+ExtUn: 0.524
+IntUn: 1.000
+IntDiv: 0.482
+Val: 1.000
+N: 21
+Step: 42","Rate: 1.900
+ExtUn: 0.500
+IntUn: 1.000
+IntDiv: 0.450
+Val: 1.000
+N: 24
+Step: 34","Rate: 1.842
+ExtUn: 0.478
+IntUn: 0.958
+IntDiv: 0.486
+Val: 1.000
+N: 24
+Step: 31","Rate: 2.910
+ExtUn: 0.786
+IntUn: 1.000
+IntDiv: 0.458
+Val: 1.000
+N: 28
+Step: 62"
+RandTanimoto,"Rate: 1.703
+ExtUn: 0.769
+IntUn: 1.000
+IntDiv: 0.443
+Val: 1.000
+N: 13
+Step: 83","Rate: 2.203
+ExtUn: 0.577
+IntUn: 1.000
+IntDiv: 0.464
+Val: 1.000
+N: 26
+Step: 50","Rate: 2.504
+ExtUn: 0.514
+IntUn: 1.000
+IntDiv: 0.464
+Val: 1.000
+N: 35
+Step: 65","Rate: 2.101
+ExtUn: 0.609
+IntUn: 1.000
+IntDiv: 0.450
+Val: 1.000
+N: 23
+Step: 98","Rate: 1.318
+ExtUn: 0.429
+IntUn: 0.933
+IntDiv: 0.431
+Val: 1.000
+N: 15
+Step: 61"
+MeanTanimoto,"Rate: 1.010
+ExtUn: 0.750
+IntUn: 1.000
+IntDiv: 0.486
+Val: 1.000
+N: 4
+Step: 26","Rate: 1.298
+ExtUn: 0.400
+IntUn: 1.000
+IntDiv: 0.451
+Val: 1.000
+N: 15
+Step: 42","Rate: 1.860
+ExtUn: 0.407
+IntUn: 0.931
+IntDiv: 0.460
+Val: 1.000
+N: 29
+Step: 37","Rate: 2.007
+ExtUn: 0.565
+IntUn: 1.000
+IntDiv: 0.482
+Val: 1.000
+N: 23
+Step: 40","Rate: 1.551
+ExtUn: 0.667
+IntUn: 0.923
+IntDiv: 0.468
+Val: 1.000
+N: 13
+Step: 38"
+HighTg,"Rate: 0.600
+ExtUn: 0.000
+IntUn: 1.000
+IntDiv: 0.000
+Val: 1.000
+N: 1
+Step: 2","Rate: 2.455
+ExtUn: 0.640
+IntUn: 0.893
+IntDiv: 0.412
+Val: 1.000
+N: 28
+Step: 80","Rate: 1.989
+ExtUn: 0.565
+IntUn: 1.000
+IntDiv: 0.393
+Val: 1.000
+N: 23
+Step: 69","Rate: 1.335
+ExtUn: 0.545
+IntUn: 0.917
+IntDiv: 0.479
+Val: 1.000
+N: 12
+Step: 45","Rate: 0.600
+ExtUn: 0.000
+IntUn: 1.000
+IntDiv: 0.000
+Val: 1.000
+N: 1
+Step: 35"
+SUM_RATES,,8.869,9.361,8.393,7.487
