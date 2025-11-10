@@ -56,7 +56,7 @@ print(data)
 smiles = data[smile_name]
 print(data.sort_values(by="Tg", ascending=False).head(20))
 #-----------------------------------------------------------
-"""
+
 if not os.path.isdir('data'):
     os.mkdir('data')
 # create smi file
@@ -76,7 +76,6 @@ verbose = False
 train_ratio = 0.8
 pretrain(num_epochs=num_epochs, verbose=verbose, train_ratio=train_ratio) #, restore_from = "/Users/tchagoue/Documents/AMETHYST/Code_git/AMETHYST/Generative_AI/Tartarus/models_jupyter/data/Prior_PI_50k_epochs_8.ckpt"
 
-#-----------------------------------------------------------
 
 #from tartarus import docking
 for exp in [0]:
@@ -86,8 +85,12 @@ for exp in [0]:
         n_steps = 100,
         experience_replay=exp
     )
-#-----------------------------------------------------------
-"""
+
+
+#***********************************************************************************************************************
+#***************************************************Plots functions*****************************************************
+#***********************************************************************************************************************
+
 
 
 # Sous-échantillon du trainset pour équilibrer la visualisation, 50 k trop grand !
@@ -174,10 +177,8 @@ def contains_substructure(smiles_list, pattern_smiles):
     print(percentages)
     return results, percentages
 pattern = "O=C1NC(=O)C2=CC3=C(C=C12)C(=O)NC3=O"
-print(contains_substructure(smiles, pattern))
+#print(contains_substructure(smiles, pattern))
 
-
-#-----------------------------------------------------------------------------------------------------------------------
 
 #****************************************************Plot multiple histogram********************************************
 #***********************************************************************************************************************
@@ -303,6 +304,7 @@ def plot_TSNE_MorganFP_(data_sample,PI_generation):
     plt.show()
 #plot_TSNE_MorganFP_(data_sample,PI_generation)
 
+
 def plot_TSNE_MorganFP(data_sample, PI_generation, target_smiles_list):
     # Définir les générations à visualiser
     generations = [0.0, 40.0, 50.0, 60.0, 99.0, 0.0, 10.0, 30.0, 60.0, 90.0]
@@ -379,6 +381,7 @@ def plot_TSNE_MorganFP(data_sample, PI_generation, target_smiles_list):
     plt.show()
 target_smiles = ["Ic1cc2c(cc1C)c1c(S2(=O)=O)cc(c(c1)C)n1c(=O)c2c(c1=O)cc1c(c2)c(=O)n(c1=O)I", "Ic1ccc(cn1)n1c(=O)c2c(c1=O)cc1c(c2)c(=O)n(c1=O)I", "Ic1ccc(c(c1Cl)Cl)n1c(=O)c2c(c1=O)cc1c(c2)c(=O)n(c1=O)I"]
 #plot_TSNE_MorganFP(data_sample,PI_generation, target_smiles)
+
 #************************************************Plot metric unicity, divercity*****************************************
 #***********************************************************************************************************************
 
@@ -532,6 +535,7 @@ def plot_tg_distribution_by_generation(data_sample, PI_generation, generations, 
 
 generations = [0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 99.0]
 #plot_tg_distribution_by_generation(data_sample, PI_generation, generations, metric_func=Pred_PI_Tg)
+
 #***********************************************************************************************************************
 #*****************************Plot de l'evolution des bits qui influence la Tg avec les steps***************************
 
@@ -674,9 +678,6 @@ def analyze_multiple_Metrics_generations(list_csv_paths, data_sample, doc_save, 
     print(f"Résultats sauvegardés dans : {doc_save}")
 
 list_csv_paths = []
-#""
-
-
 list_csv_files =["run_2025-07-05_SI", "run_2025-07-05_SI_O", "run_2025-07-05_SI_2",
                  "run_2025-07-05_SII", "run_2025-07-05_SII_O",
                  "run_2025-07-05_SIII", "run_2025-07-05_SIII_O"]
@@ -727,17 +728,6 @@ data_sample_2 = data.sort_values(by="Tg", ascending=False).head(2000)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 def plot_tsne_and_histogram(df, smiles_col='SMILES', target_col='Tg', generation_col=None):
     # 1. Compute Morgan fingerprints
     print("Computing Morgan fingerprints...")
@@ -780,23 +770,7 @@ def plot_tsne_and_histogram(df, smiles_col='SMILES', target_col='Tg', generation
     plt.show()
 #plot_tsne_and_histogram(data)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#***********************************************************************************************************************
 
 top_mols_data = []
 
@@ -1098,33 +1072,6 @@ csvs_no_replay = [
 """
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #------------------------------Comparons les molécules generées avec les scores individuels et collectifs------------------------
 CSV_solo_score_e = [
     "/Users/tchagoue/Documents/AMETHYST/Code_git/AMETHYST/Generative_AI/Tartarus/data/Save_metrics/HighTg_data_e.csv",
@@ -1249,18 +1196,14 @@ def compare_smiles_with_properties(csv_list_1, csv_list_2, output_excel_path='sm
     )
     radar_fig_path = output_excel_path.replace('.xlsx', '_radar.html')
     fig.write_html(radar_fig_path)
-    print(f"\n✅ Excel saved to: {output_excel_path}")
-    print(f"🖼️ Venn diagram saved to: {venn_path}")
-    print(f"🔸 Common molecules: {len(common_smiles)}")
-    print(f"🔹 Unique to group 1: {len(unique_to_1)}")
-    print(f"🔹 Unique to group 2: {len(unique_to_2)}")
+    print(f"\n Excel saved to: {output_excel_path}")
+    print(f" Venn diagram saved to: {venn_path}")
+    print(f" Common molecules: {len(common_smiles)}")
+    print(f" Unique to group 1: {len(unique_to_1)}")
+    print(f" Unique to group 2: {len(unique_to_2)}")
 
     return output_excel_path, venn_path, radar_fig_path
-
 #compare_smiles_with_properties(csv_list_1, csv_list_2)
-
-
-
 
 
 def Image_diagram_kiviat(file_path):
@@ -1317,7 +1260,6 @@ def Image_diagram_kiviat(file_path):
         count = df[df['group'] == group].shape[0]
         tg_mean = df[df['group'] == group]['Tg'].mean()
         print(f"Groupe {group} : {count} molécules, Tg moyen = {tg_mean:.2f}")
-
 
 file_path_xlsx = "/Users/tchagoue/Documents/AMETHYST/Code_git/AMETHYST/Generative_AI/Tartarus/smiles_comparison_enhanced.xlsx"
 #Image_diagram_kiviat(file_path_xlsx)
