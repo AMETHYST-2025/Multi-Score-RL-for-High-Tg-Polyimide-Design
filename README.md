@@ -48,5 +48,6 @@ Analysis includes:
 - The folder `/data/results` contains saved RL models. For space, **only one model is included** to illustrate the workflow.  
 - Random Forest models (`random_forest_model_500k.pkl` and `random_forest_model.pkl`) were removed (1 GB and 12 GB respectively). The **code to generate these models** is available in `/models_jupyter/reinvent_benchmarking/Pred_Tg/PI_Tg_Prediction.py`.
 
-### The **main script** is:
-`/models_jupyter/reinvent.py` It contains the full RL workflow and, in comments, the algorithms used to generate the figures presented in the paper.
+### Notes
+- The **main script** is: `/models_jupyter/reinvent.py` It contains the full RL workflow and, in comments, the algorithms used to generate the figures presented in the paper.
+- All the generated polyimides are stored in the folder: "/data/results"
