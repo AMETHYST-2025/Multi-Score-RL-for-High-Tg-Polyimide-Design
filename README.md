@@ -19,15 +19,6 @@ We systematically analyze these scores individually and in combination to study 
 
 ---
 
-## 🧩 Key Findings
-- **Score combination strategies enhance diversity** while maintaining high Tg.  
-- The novel **ExpMean** (exponential-logarithmic mean) is effective for combining scores evolving at similar rates, improving convergence and performance.  
-- Naïve scores, although purely exploitative, perform well when combined with exploratory scores.  
-- Standard weighted arithmetic means require careful tuning; geometric and ExpMean alternatives can offer more **robust performance** without manual adjustment.  
-- Results are specific to **high-Tg polyimides (>750 K)**; extension to other polymer classes is left for future work.
-
----
-
 ## ⚙️ Framework and Methodology
 Experiments are conducted using the **[REINVENT](https://github.com/MolecularAI/Reinvent)** framework with:
 
